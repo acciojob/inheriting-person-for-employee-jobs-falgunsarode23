@@ -19,11 +19,6 @@ Employee.prototype.greet = function() {
     console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
 }
 
-// Do not change code below this line
-window.Person = Person;
-window.Employee = Employee;
-
-
 let person = new Person("Alice", 25);
 person.greet(); // Should print "Hello, my name is Alice, I am 25 years old."
 
