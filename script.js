@@ -19,10 +19,6 @@ Employee.prototype.jobGreet = function() {
 	console.log(`Hello, my name is ${this.name}, I am ${this.age} years old, and my job title is ${this.jobTitle}`);
 }
 
-Employee.prototype.jobGreet = function() {
-	console.log(`Hello, my name is ${this.name}, I am ${this.age} years old, and my job title is ${this.jobTitle}`);
-}
-
 let person = new Person("Alice", 25);
 person.greet(); // Should print "Hello, my name is Alice, I am 25 years old."
 
